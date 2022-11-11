@@ -147,11 +147,6 @@
                                     </div>
 
                                     <!--Sale-->
-
-
-
-
-
                                     <div id="tab3" class="tab_content grid-products style3">
                                         <div class="productSlider">
                                           <?php foreach ($data_sanpham3 as $value) {?>

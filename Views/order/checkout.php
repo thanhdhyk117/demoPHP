@@ -102,7 +102,7 @@
                                     <div class="form-group col-md-6 col-lg-6 col-xl-6 required">
                                         <label for="input-zone">Mã<span class="required-f">*</span></label>
                                         <select name="zone_id" id="input-zone">
-                                            <option value=""> --- Please Select --- </option>
+                                            <option value=""> --- Vui lòng chọn địa chỉ --- </option>
                                             <option value="55000">Da Nang</option>
                                             <option value="53100">HoChiMinh</option>
                                             <option value="51000">HaNoi</option>
@@ -168,11 +168,11 @@
                                     <tfoot class="font-weight-600">
                                         <tr>
                                             <td colspan="4" class="text-right">VAT </td>
-                                            <td>$10.00</td>
+                                            <td><?=number_format($count,1) * 0.1?> đ</td>
                                         </tr>
                                         <tr>
                                             <td colspan="4" class="text-right">Tổng tiền</td>
-                                            <td>$ <?=number_format($count,1)?></td>
+                                            <td><?=number_format($count,1) * 1.1?> đ</td>
                                         </tr>
                                     </tfoot>
                                 </table>

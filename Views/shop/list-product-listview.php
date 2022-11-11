@@ -2,7 +2,7 @@
 <div class="collection-header">
 <div class="collection-hero">
       <div class="collection-hero__image"><img data-src="assets/images/cat-women3.jpg" src="assets/images/cat-women3.jpg" alt="Women" title="Women" /></div>
-      <div class="collection-hero__title-wrapper"><h1 class="collection-hero__title page-width">Shop List View</h1></div>
+      <div class="collection-hero__title-wrapper"><h1 class="collection-hero__title page-width">Danh sách</h1></div>
     </div>
 </div>
   <!--End Collection Banner-->

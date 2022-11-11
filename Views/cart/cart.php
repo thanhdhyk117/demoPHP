@@ -42,7 +42,7 @@
                                         </div>
                                     </td>
                                     <td class="cart__price-wrapper cart-flex-item">
-                                        <span class="money"><?= number_format($value['DonGia']) ?> $</span>
+                                        <span class="money"><?= number_format($value['DonGia']) ?> đ</span>
                                     </td>
                                     <td class="cart__update-wrapper cart-flex-item text-right">
                                         <div class="cart__qty text-center">
@@ -54,7 +54,7 @@
                                         </div>
                                     </td>
                                     <td class="text-right small--hide cart-price">
-                                        <div><span class="money"><?= number_format($value['ThanhTien']) ?> $</span></div>
+                                        <div><span class="money"><?= number_format($value['ThanhTien']) ?> đ</span></div>
                                     </td>
                                     <td class="text-center small--hide"><a href="?act=cart&xuli=deleteall&id=<?= $value['MaSP'] ?>" class="btn btn--secondary cart__remove" title="Loại bỏ"><i class="icon icon anm anm-times-l"></i></a></td>
                                 </tr>

@@ -79,7 +79,7 @@
                               </a>
                           </div>
                           <div class="details"> <a class="grid-view-item__title" href="#"><?=$data_noibat['TenSP']?></a>
-                            <div class="grid-view-item__meta"><span class="product-price__price"><span class="money"><?=$data_noibat['DonGia']?> $</span></span></div>
+                            <div class="grid-view-item__meta"><span class="product-price__price"><span class="money"><?=$data_noibat['DonGia']?> đ</span></span></div>
                           </div>
                         </div>
                       </div>

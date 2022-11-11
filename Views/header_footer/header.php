@@ -169,13 +169,11 @@
 <div class="mobile-nav-wrapper" role="navigation">
     <div class="closemobileMenu"><i class="icon anm anm-times-l pull-right"></i> Close Menu</div>
     <ul id="MobileNav" class="mobile-nav">
-      <li class="lvl1 parent megamenu"><a href="?act=home">Home <i class="anm anm-angle-down-l"></i></a></li>
-      <li class="lvl1 parent megamenu"><a href="?act=shop">Shop <i class="anm anm-angle-down-l"></i></a></li>
-      <li class="lvl1 parent dropdown"><a href="?act=compare">Compare<i class="anm anm-angle-down-l"></i></a></li>
-      <li class="lvl1 parent dropdown"><a href="?act=about">About <i class="anm anm-angle-down-l"></i></a></li>
-      <li class="lvl1 parent dropdown"><a href="?act=contact">Contact <i class="anm anm-angle-down-l"></i></a></li>
-      <li class="lvl1 parent dropdown"><a href="?act=blog">Blog <i class="anm anm-angle-down-l"></i></a></li>
-      <li class="lvl1"><a href="#"><b>Buy Now!</b> <i class="anm anm-angle-down-l"></i></a></li>
+      <li class="lvl1 parent megamenu"><a href="?act=home">Trang chủ <i class="anm anm-angle-down-l"></i></a></li>
+      <li class="lvl1 parent megamenu"><a href="?act=shop">Mua sắm <i class="anm anm-angle-down-l"></i></a></li>
+      <li class="lvl1 parent dropdown"><a href="?act=about">Giới thiệu <i class="anm anm-angle-down-l"></i></a></li>
+      <li class="lvl1 parent dropdown"><a href="?act=contact">Liên hệ với chúng tôi <i class="anm anm-angle-down-l"></i></a></li>
+      <li class="lvl1"><a href="#"><b>Mua sắm ngay!</b> <i class="anm anm-angle-down-l"></i></a></li>
     </li>
   </ul>
 </div>

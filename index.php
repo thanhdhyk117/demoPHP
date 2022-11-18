@@ -1,5 +1,7 @@
 <?php
 session_start();
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Headers: *");
 $mod = isset($_GET['act']) ? $_GET['act'] : "home";
 switch ($mod) {
     case 'sub':

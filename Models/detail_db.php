@@ -8,9 +8,9 @@ class Detail extends Model
         $result = $this->conn->query($query);
         if($result -> num_rows > 0)
         {
-            return $result->fetch_assoc();
+            $a = $result->fetch_assoc();
         }
-        
+        return $a;
     }
     function detail_cm($id)
     {

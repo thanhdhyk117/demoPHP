@@ -6,7 +6,11 @@ class Detail extends Model
     {
         $query =  "SELECT * from SanPham where MaSP = $id ";
         $result = $this->conn->query($query);
-        return $result->fetch_assoc();
+        if($result -> num_rows > 0)
+        {
+            return $result->fetch_assoc();
+        }
+        
     }
     function detail_cm($id)
     {
